@@ -1,0 +1,82 @@
+/* JobCard.css */
+.job-card {
+  position: relative;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    transition: transform 0.3s ease;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .job-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .job-content {
+    flex: 1;
+  }
+  
+  .job-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .job-company, .job-location, .job-salary, .job-role, .job-experience, .job-openings {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .job-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .call-hr-btn, .whatsapp-btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #4caf50;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+  }
+  
+  .call-hr-btn:hover, .whatsapp-btn:hover {
+    background-color: #388e3c;
+  }
+  
+  .bookmark-btn {
+    background-color: #2196f3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+
+  }
+  a{
+    text-decoration: none;
+  }
+  .bookmark-btn:hover {
+    background-color: #1976d2;
+  }
+  

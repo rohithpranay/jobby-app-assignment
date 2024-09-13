@@ -1,0 +1,68 @@
+/* Jobs.css */
+
+/* Job Card Styles */
+.job-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border-left: 5px solid #4caf50;
+    transition: transform 0.3s ease;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Title and Content */
+  .job-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .job-location {
+    font-size: 1.1rem;
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  .job-salary, .job-phone {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Button for Bookmark */
+  .bookmark-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .bookmark-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Loading and Error Message Styles */
+  .message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .loading-message {
+    color: #4caf50;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+  }
+  
